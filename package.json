@@ -1,0 +1,19 @@
+{
+  "name":"sumoni",
+  "version": "1.0.0",
+  "author": {"name": "B. Chabiene"},
+  "license":"AGPL-3.0-only",
+  "scripts": {
+    "postinstall": "node ./run/thanks.js"
+  },
+  "main": "release/js/index.js",
+  "devDependencies": {
+    "gulp-typescript": "^3.2.4",
+    "merge2": "^1.4.1",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.5",
+    "gulp": "^4.0.2"
+  }
+}
